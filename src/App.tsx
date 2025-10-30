@@ -142,6 +142,7 @@ const action = () => {
         <IconUser size={34} color="#5F9235FF" strokeWidth={5} className="ico-hover" onClick={action}/>
 
       </div>
+      <p>hola</p>
       <ul>
         { datos.map(dato=>(
             <li key={dato.id}>{dato.name}</li>
