@@ -1,0 +1,37 @@
+.btn-primary {
+    border: transparent;
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 1rem;
+    padding: 1rem 3rem;
+    border-radius: 5rem;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--color-light);
+    text-align: center;
+    background-color: var(--color-corp-50);
+}
+
+.btn-primary:hover {
+    background-color: var(--color-corp-70); 
+    font-size: 1.6rem;
+    border: transparent;
+}
+
+.btn-primary:active {
+    box-shadow: 0 0 0.6rem #234d4f inset;
+}
+
+.btn-primary:focus {
+    outline-color: var(--color-corp-30);
+    outline-style: solid;
+    outline-width: 3.5px;
+}
+
+.btn-primary:disabled {
+    color: var(--color-neutral-20);
+    cursor: not-allowed;
+    background-color: var(--color-neutral-5); 
+}

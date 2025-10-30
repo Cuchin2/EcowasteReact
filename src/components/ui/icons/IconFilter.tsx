@@ -1,0 +1,17 @@
+import { BaseIcon } from "./BaseIcon/BaseIcon";
+import type { BaseIconProps } from "./BaseIcon/BaseIcon";
+
+const  IconFilter = (props: BaseIconProps) => {
+    return (
+    <BaseIcon {...props} id="menu3">
+        <path d="M18.4,47.8H6.3c-2.2,0-4-1.8-4-4V6.3c0-2.2,1.8-4,4-4h12.1c2.2,0,4,1.8,4,4v37.4C22.4,46,20.7,47.8,18.4,47.8z
+            "/>
+        <path d="M43.9,22.4H31.7c-2.2,0-4-1.8-4-4V6.3c0-2.2,1.8-4,4-4h12.1c2.2,0,4,1.8,4,4v12.1
+            C47.9,20.6,46.1,22.4,43.9,22.4z"/>
+        <path d="M43.9,47.7H31.7c-2.2,0-4-1.8-4-4V31.6c0-2.2,1.8-4,4-4h12.1c2.2,0,4,1.8,4,4v12.1
+            C47.9,45.9,46.1,47.7,43.9,47.7z"/>
+    </BaseIcon>
+    )
+}
+
+export default IconFilter;

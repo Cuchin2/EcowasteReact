@@ -1,0 +1,59 @@
+.cardBlog-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem 0.8rem;
+    place-content: center;
+    margin: 20px 0;
+}
+.cardBlog {
+    position: relative;
+    width: 300px; /* cuando sea comp ponerlo en auto */
+    height: auto;
+    color: #7A7A7A;
+    background-color: white;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 8px;
+    }
+
+    .cardBlog:hover {
+transform: scale(1.01);
+box-shadow: 0 0 0.6rem #b4b4b4;
+border-radius: 1rem;
+    }
+
+    .cardBlog__icon-container {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    }
+
+    .cardBlog__photo {
+    width: 100%;
+    border-radius: 1rem;
+    }
+
+    .cardBlog__container {
+        padding: 0.3rem 0.5rem;
+    }
+    .cardBlog__category {
+        color: #4D999C;
+        text-decoration: none;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    .cardBlog__category:hover {
+        color: #3C7F81;
+        text-decoration: none;
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+    .cardBlog__titulo {
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+
+    .cardBlog__icon {
+        width: 12px;
+    }
